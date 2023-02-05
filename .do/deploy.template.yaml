@@ -6,7 +6,7 @@ spec:
     environment_slug: node-js
     git:
         branch: main
-        repo_clone_url: https://github.com/PiyushDixit96/binance-spot-order-notification-heroku.git
+        repo_clone_url: https://github.com/rapatte/notif-order-binance.git
     envs:
     - key: BINANCE_API_KEY
       scope: BUILD_TIME
@@ -21,4 +21,4 @@ spec:
       value: "[{'NEW': 1, 'CANCELED': 1, 'TRADE': 1},{'LIMIT': 1, 'MARKET': 1, 'STOP_LOSS': 1},{'BUY': 1, 'SELL': 1}]"
     - key: TIME_ZONE_STRING
       scope: BUILD_TIME
-      value: "Asia/Kolkata"
+      value: "Europe/Paris"
